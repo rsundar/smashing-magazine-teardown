@@ -265,7 +265,7 @@ nav {
     justify-content: flex-start;
 }
 
-#size {
+.size {
     width: 10%;
     height: 30%;
     transform: rotate(-10deg);
