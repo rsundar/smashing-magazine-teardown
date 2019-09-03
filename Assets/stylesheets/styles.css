@@ -1,0 +1,313 @@
+/*BEGIN base styling*/
+:root {
+    font-size: 10px;
+    box-sizing: border-box;
+    background: #e2e2e2;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Noto Sans SC', sans-serif;
+    filter: grayscale(100%);
+}
+
+/*END base styling*/
+
+/*BEGIN nav bar styling*/
+nav {
+    width: 100%;
+    height: 15rem;
+    background: #424242;
+}
+
+.nav-bar {
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav-bar-li {
+    width: 10%;
+    font-size: 2.4rem;
+    margin-left: 1rem;
+}
+
+.img-margin {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    padding: 0;
+    height: 6rem;
+}
+/*END nav bar styling*/
+
+/*BEGIN featured articles styling*/
+.featured-articles-container {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+}
+
+.featured-articles-teaser {
+    z-index: 10;
+}
+
+.first-row {
+    background-color: black;
+    color: white;
+}
+
+.second-row {
+    margin-left: 14.55rem;
+    background-color: black;
+    color: white;
+}
+/*END featured articles styling*/
+
+/*BEGIN articles styling*/
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80rem;
+    margin-top: -13rem;
+}
+
+.articles > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-size: 1.9rem;
+    color: white;
+}
+
+.grey1 {
+    background: #545657;
+} 
+
+.grey2 {
+    background: #727478;
+}
+/*END articles styling*/
+
+/*BEGIN membership section styling*/
+.membership {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    background: #424242;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.smashing-cat {
+    transform: rotate(-20deg);
+    margin-top: -15rem;
+    z-index: 2;
+}
+
+.smashing-cat:hover {
+    transform: rotate(0deg);
+    margin-top: -15rem;
+    z-index: 2;
+    transition: transform 1s;
+}
+/*END membership section styling*/
+
+/*BEGIN second article row styling*/
+.second-article-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 30rem;
+    margin-top: 0.5rem;
+    padding: 0;
+}
+
+.second-article-row > div {
+    width: 33.33%;
+    height: 100%;
+}
+
+.second-article-row > div > h2 {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    font-family: 'Noto Sans SC', sans-serif;
+    color: black;
+}
+
+.sponsorship {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 100%;
+    height: 50rem;
+}
+
+.shutterstock {
+    width: 20%;
+    height: 25%;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    background: #424242;
+    border: 1px solid #424242;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.membership-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    height: 100%;
+    background: #545657;
+    border: 1px solid #545657;
+    border-radius: 1.5rem;
+}
+
+.membership-counter > h2 {
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+
+.singing-cat {
+    width: 20rem;
+    height: 20rem; 
+}
+
+.article-left {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans SC', sans-serif;
+    color: black;
+}
+/*END second article styling*/
+
+/*BEGIN JAM conf styling*/
+#margin {
+    flex-direction: column;
+    margin-top: 3rem;
+}
+/*END JAM conf styling*/
+
+/*BEGIN person of the week styling*/
+.person-of-the-week {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30rem;
+    margin-top: 3rem;
+}
+
+.rectangle {
+    width: 10%;
+    height: 50%;
+    border: 1px solid #424242;
+    border-radius: 1rem;
+    background: #424242;
+    transform: rotate(-10deg);
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.description {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.description > p {
+    font-size: 2.3rem;
+}
+/*END person of the week styling*/
+
+/*BEGIN third article section styling*/
+.article-container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80rem;
+    margin-top: 10%;
+}
+
+.article-container > div {
+    width: 50%;
+    height:33.33%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.size {
+    width: 10%;
+    height: 30%;
+    transform: rotate(-10deg);
+}
+/*END third article section styling*/
+
+/*BEGIN Fourth section styling*/
+.listicle {
+    padding-left: 8rem; 
+}
+
+.listicle > li {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-size: 1.6rem;
+}
+
+.listicle > li:hover {
+    cursor: pointer;
+}
+
+#bottom {
+    margin-bottom: 5.5rem;
+}
+/*END Fourth section styling*/
+
+/*BEGIN footer section styling*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    background: #424242;
+}
+
+.footer-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/*END footer section styling*/
